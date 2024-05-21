@@ -9,6 +9,7 @@
 // @include      https://*.plainenglish.io/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=medium.com
 // @grant        none
+// @run-at      document-start
 // ==/UserScript==
 
 (async function() {
