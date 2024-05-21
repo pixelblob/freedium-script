@@ -12,13 +12,6 @@
 
 (async function() {
     'use strict';
-    //document.body.innerHTML="";
-let html = await (await fetch("https://freedium.cfd/"+document.location)).text()
-ReplaceContent(html)
-
-function ReplaceContent(NC) {
-        document.open();
-        document.write(NC);
-        document.close();
-      }
+    if (window.location.hash.includes("bypass")) return
+    document.location = "https://freedium.cfd/"+document.location
 })();
